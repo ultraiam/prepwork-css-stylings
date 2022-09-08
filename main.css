@@ -1,37 +1,35 @@
-h1 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    text-decoration: ;
-    color: ;
-    background-color: ;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+body, h1 {
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+    margin: 0;
+    font-weight: 700;
+    text-decoration: wavy;
+    color: black;
 }
 
 h2 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    color: ;
-    background-color: ;
+    font-weight: 700;
+}
+
+em {
+    font-weight: 300;
+    font-style: italic;
 }
 
 p {
-    font-family: ;
-    font-size: ;
-    padding: ;
-    margin: ;
-    color: ;
-    background-color: ;
+    font-weight: 400;
 }
 
 .logo {
     background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+    background-color: red;
+    height: 80%;
+    width: 65%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
